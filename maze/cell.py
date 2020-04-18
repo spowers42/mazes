@@ -38,4 +38,4 @@ class Cell:
     return cell in self._links
 
   def neighbors(self):
-    return [direction for  direction in (self._north, self._south, self._west, self._east) if directions is not None]
+    return [direction for  direction in (self._north, self._south, self._west, self._east) if direction is not None]
